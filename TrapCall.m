@@ -1,5 +1,5 @@
 % short script to call the Trapezoid function 
-%       to calculate the value of the integral
+% to calculate the value of the integral
 
 x = linspace(-2,4,50) ;
 y = 1 - x - 4.*x.^3 + 2.*x.^5 ;
