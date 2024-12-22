@@ -1,7 +1,7 @@
 % Polynomial regression script
 % Read and import data from an Excel file
 
-path = "C:\Users\aweso\OneDrive\Documents\Week7Data.xlsx"
+path = "example.xlsx"
 A = xlsread(path)
 
 n = length(A)
