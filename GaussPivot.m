@@ -17,7 +17,7 @@ AugA = [A B];
 
 NumCol = m + 1;
 
-% begin forward elemination loop, the outer loop moves from one pivot row
+% begin forward elimination loop, the outer loop moves from one pivot row
 % to the next. the next loop calculates a facotr for each row below the
 % pivot row. the innermost loop uses this factor for each element in the
 % row
