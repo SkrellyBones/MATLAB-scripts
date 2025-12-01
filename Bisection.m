@@ -1,4 +1,4 @@
-function [Valatroot,centerror,numiters,root] = Bisection_CIT(F,LowerB,UpperB,Error,Iterations,varargin)
+function [Valatroot,centerror,numiters,root] = Bisection(F,LowerB,UpperB,Error,Iterations,varargin)
 %The bisection method is a root-finding algorithm that iteratively reduces 
 % the interval containing a root of a real-valued function. 
 % The basic idea is to repeatedly divide the interval in half and then 
@@ -56,4 +56,5 @@ end
 root = newbound; 
 Valatroot = F(newbound,varargin{:});
 fprintf('Bisection coverged after %d iterations with a root value of %d \n with a percent error of %d with a function value of %d',numiters,root,centerror,Valatroot )
+
 end
