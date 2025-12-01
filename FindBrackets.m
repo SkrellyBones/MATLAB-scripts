@@ -1,4 +1,4 @@
-function [Brackets] = FindBrackets_CIT(func,xmin,xmax,steps)
+function [Brackets] = FindBrackets(func,xmin,xmax,steps)
 %Function takes as input a function and searches for the roots.
 %func is the function to be searched
 %xmin and xmax are the limits of the search interval
@@ -62,5 +62,6 @@ disp(NumBrackets)
 disp('---- average root values -- average function values --')
 
 end
+
 
 end
