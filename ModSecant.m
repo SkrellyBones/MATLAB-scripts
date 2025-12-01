@@ -1,4 +1,4 @@
-function [Root, ApproxE, NumIt] =  ModSecant_CIT(func,InitialX,delta,RelativeE,MaxIt)
+function [Root, ApproxE, NumIt] =  ModSecant(func,InitialX,delta,RelativeE,MaxIt)
 
 clc
 if nargin <2
@@ -42,5 +42,6 @@ end
 
 
    
+
 
 
