@@ -1,4 +1,4 @@
-function [Root, ApproxE, NumIt] =  NewtRaph_CIT(func,derf,InitialX,RelativeE,MaxIt)
+function [Root, ApproxE, NumIt] =  NewtRaph(func,derf,InitialX,RelativeE,MaxIt)
 
 clc
 if nargin <3
@@ -37,5 +37,6 @@ end
 
 
    
+
 
 
